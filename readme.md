@@ -59,12 +59,8 @@ After compiling and uploading, I had a blinking LED:
 
 ![](images/blink.mp4)
 
-<!-- blank line -->
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
-    <source src="images/blink.mp4" type="video/mp4">
-  </video>
-</figure>
-<!-- blank line -->
+<video controls>
+  <source src="images/blink.mp4" type="video/mp4">
+</video>
 
 That's it for now!
