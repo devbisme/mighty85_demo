@@ -57,8 +57,6 @@ All I had to do was replace `LED_BUILTIN` with `PB0`.
 
 After compiling and uploading, I had a blinking LED:
 
-![](images/blink.mp4)
-
 <video controls>
   <source src="images/blink.mp4" type="video/mp4">
 </video>
