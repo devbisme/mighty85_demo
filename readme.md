@@ -1,4 +1,4 @@
-Dan Heinzsch developed an ATtiny85-based board and offered a few of them on [Twitter](https://twitter.com/rheingoldheavy/status/1628132673863700480):
+Dan Hienzsch developed an ATtiny85-based board and offered a few of them on [Twitter](https://twitter.com/rheingoldheavy/status/1628132673863700480):
 ![](images/mighty85_tweet.png)
 
 After a few hours, he had only received a single reply so - since it was *free* - I went ahead and asked for one. I received it in the mail within a few days:
@@ -10,6 +10,9 @@ Upon receipt, I just plugged the board into a USB socket to see what would happe
 
 Since this was an ATtiny85 board, I figured the Arduino IDE would be a good place to start and so I downloaded the [latest appimage](https://www.arduino.cc/en/software).
 Upon starting the IDE, no ATtiny boards were listed, so I added `http://digistump.com/package_digistump_index.json` to the **Additional boards manager URLs** field in **File/Preferences** as described [here](https://koen.vervloesem.eu/blog/how-to-use-the-digispark-with-micronucleus-bootloader-in-the-arduino-ide/).
+
+\[**Note:** A lot of the difficulties described below can be avoided by using the ATtinyCore package `http://drazzy.com/package_drazzy.com_index.json`.\]
+
 After the IDE installed the board package, I selected `Digispark (Default - 16.5 MHz)` from the list presented by **Tools/Boards**.
 I also set **Tools/Port** to `/dev/ttyS0`. (I'm using Ubuntu 22.04.)
 
